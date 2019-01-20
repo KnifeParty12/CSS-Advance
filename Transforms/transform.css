@@ -1,0 +1,12 @@
+#div1{
+    margin: 30px;
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    /*transform: translate(30px,30px); /*Works like translate(x,y) but positive y-coordinate shifts downwards */
+    /*transform: skew(0deg,30deg);*/
+    /*transform: rotateX(360deg);*/
+    /*transform: scaleY(-0.5);*/
+
+}
+
