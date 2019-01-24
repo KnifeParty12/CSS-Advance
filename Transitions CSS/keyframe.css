@@ -1,0 +1,44 @@
+div{
+    height: 80px;
+    width: 80px;
+    margin: 40px;
+    background-color: blue;
+}
+
+@keyframes slide { /*Keyframes animation can be applied to anything,any html element*/
+    from {
+        margin-left: 40px
+}
+to{
+    margin-left: 300px;
+}
+}
+
+@keyframes crazyslide { /*Keyframes animation are just changing the CSS properties as a function of time*/
+    0% {
+        margin-left: 40px;
+    }
+    50% {
+        height: 10px;
+        background-color: red;
+        margin-left: 150px;
+    }
+
+    100%{
+        margin-left: 300px;
+        background-color: aqua;
+    }
+
+}
+
+div:hover + div {
+    animation-name:slide;
+    animation-duration: 2s;
+    animation-iteration-count: 30;
+}
+
+#div3:hover+div{/*will happen to the next div after div 3*/
+    animation-name: crazyslide;
+    animation-duration: 10s;
+    animation-iteration-count: 30;
+}
