@@ -15,5 +15,5 @@
 
 **6.  Beauty Of Media Queries**  
 
-**7. Using Bootstrap and Grid-Layout and Breakpoints when screen size**
+**7. Using Bootstrap and Grid-Layout and Breakpoints when screen size are variable**
 
