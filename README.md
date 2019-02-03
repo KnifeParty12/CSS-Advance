@@ -13,3 +13,7 @@
 
 **5. Flexbox Properties**
 
+**6.  Beauty Of Media Queries**  
+
+**7. Using Bootstrap and Grid-Layout and Breakpoints when screen size**
+
